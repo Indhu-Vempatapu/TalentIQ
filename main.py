@@ -69,15 +69,11 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-
-# ---------- Page Title ----------
 st.markdown("<div class='main-title'>SmartHire AI 🔍</div>", unsafe_allow_html=True)
 st.markdown(
     '<h4 style="color:#1a1a1a;">Get AI-powered insights on your resume alignment with the job role</h4>',
     unsafe_allow_html=True
 )
-
-# <------- Defining Functions ------->
 
 # Function to extract text from PDF
 def extract_pdf_text(uploaded_file):
@@ -107,7 +103,6 @@ def calculate_similarity_bert(text1, text2):
 def get_report(resume,job_desc):
     client = Groq(api_key=api_key)
 
-    # Change the prompt to get the results in your style
     prompt=f"""
     # Context:
     - You are an AI Resume Analyzer, you will be given Candidate's resume and Job Description of the role he is applying for.
@@ -146,10 +141,6 @@ def extract_scores(text):
     scores = [float(match) for match in matches]
     return scores
 
-
-
-
-# <--------- Starting the Work Flow ---------> 
 
 # Displays Form only if the form is not submitted
 if not st.session_state.form_submitted:
@@ -229,7 +220,6 @@ if st.session_state.form_submitted:
 )
 
 
-
     st.markdown('<h4 style="color:#1a1a1a;">📋 Detailed Resume Evaluation Report</h4>', unsafe_allow_html=True)
 
 
@@ -254,4 +244,4 @@ if st.session_state.form_submitted:
 
     
 
-# <-------------- End of the Work Flow --------------->
+
