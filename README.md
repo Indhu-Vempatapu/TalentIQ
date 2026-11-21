@@ -1,8 +1,8 @@
-## 💼 SmartHire AI – Resume Analyzer Using BERT & LLM
+## 💼 TalentIQ – AI-Powered Resume Analyzer 
 
 # 🧠 Introduction
 
-SmartHire AI is an intelligent resume analysis tool designed to help job applicants understand how well their resumes align with a given job description. By leveraging cutting-edge BERT-based embeddings and LLM-powered evaluation (via Groq's LLaMA-3 model), the system delivers deep insights, match scores, and actionable suggestions to improve the chances of landing a dream job.
+TalentIQ is an intelligent resume analysis tool designed to help job applicants understand how well their resumes align with a given job description. By leveraging cutting-edge BERT-based embeddings and LLM-powered evaluation (via Groq's LLaMA-3 model), the system delivers deep insights, match scores, and actionable suggestions to improve the chances of landing a dream job.
 
 # What It Does
 
