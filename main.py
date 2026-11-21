@@ -12,7 +12,7 @@ import os
 load_dotenv()
 
 # Fetch the key from the environment
-api_key = os.getenv("GROQ_API_KEY")
+api_key = st.secrets.get("GROQ_API_KEY") or os.getenv("GROQ_API_KEY")
 
 
 #  Session States to store values 
