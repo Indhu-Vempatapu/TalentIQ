@@ -1,10 +1,10 @@
-## 💼 TalentIQ – AI-Powered Resume Analyzer 
+# 💼 TalentIQ – AI-Powered Resume Analyzer 
 
-# 🧠 Introduction
+## 🧠 Introduction
 
 TalentIQ is an intelligent resume analysis tool designed to help job applicants understand how well their resumes align with a given job description. By leveraging cutting-edge BERT-based embeddings and LLM-powered evaluation (via Groq's LLaMA-3 model), the system delivers deep insights, match scores, and actionable suggestions to improve the chances of landing a dream job.
 
-# What It Does
+## What It Does
 
 - Accepts a PDF resume and a job description input.
 
@@ -18,7 +18,7 @@ TalentIQ is an intelligent resume analysis tool designed to help job applicants 
 
 - Allows users to download the analysis report for offline reference.
 
-# ⚙️ How It Works
+## ⚙️ How It Works
 
 - Frontend Interface: Built with Streamlit for a seamless and responsive web experience.
 
@@ -42,7 +42,7 @@ TalentIQ is an intelligent resume analysis tool designed to help job applicants 
 
      - Calculates an average rating based on the total score out of 5 for each point.
  
-# 🧰 Technologies Used
+## 🧰 Technologies Used
 
 Streamlit - Web interface
 
@@ -58,7 +58,7 @@ dotenv	- Manage API key securely
 
 re (Regex) - Extract scores from text
 
-#  Installation Steps
+##  Installation Steps
 
 Follow these steps to set up and run the **AI Resume Analyzer** locally:
 
@@ -109,5 +109,5 @@ http://localhost:8501
 ✅ Now you’re all set!
 Upload a resume, paste a job description, and let the AI analyze your resume for job-fit and provide suggestions. 
 
-# Output 
+## Output 
 ![Demo](assets/video.gif)**
