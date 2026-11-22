@@ -60,7 +60,7 @@ re (Regex) - Extract scores from text
 
 ##  Installation Steps
 
-Follow these steps to set up and run the **AI Resume Analyzer** locally:
+Follow these steps to set up and run **TalentIQ** locally.:
 
 
 Make sure you have Python and Git installed.
