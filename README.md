@@ -2,7 +2,7 @@
 
 ## 🧠 Introduction
 
-TalentIQ is an intelligent resume analysis tool designed to help job applicants understand how well their resumes align with a given job description. By leveraging cutting-edge BERT-based embeddings and LLM-powered evaluation (via Groq's LLaMA-3 model), the system delivers deep insights, match scores, and actionable suggestions to improve the chances of landing a dream job.
+TalentIQ is an AI-powered resume analysis tool that helps job applicants evaluate how well their resumes align with a given job description. Using Sentence-BERT embeddings and LLM-powered evaluation through Groq, it provides semantic match scores, detailed resume feedback, and actionable suggestions to help candidates improve their resumes.
 
 ## What It Does
 
@@ -10,7 +10,7 @@ TalentIQ is an intelligent resume analysis tool designed to help job applicants 
 
 - Uses Sentence-BERT to compute a similarity score between the resume and job description.
 
-- Interacts with Groq’s LLaMA-3.3-70b model to perform a detailed resume evaluation.
+- Interacts with Groq's openai/gpt-oss-120b model to perform a detailed resume evaluation.
 
 - Displays both a Resume Match Score and an AI Rating based on qualitative analysis.
 
@@ -28,7 +28,7 @@ TalentIQ is an intelligent resume analysis tool designed to help job applicants 
 
   - Utilizes SentenceTransformer with all-mpnet-base-v2 to encode resume and job description into embeddings.
 
-  - Computes cosine similarity for an initial ATS-style match score.
+  - Computes cosine similarity to estimate semantic alignment between the resume and job description.
 
 - AI-Powered Evaluation:
 
@@ -52,7 +52,7 @@ SentenceTransformer - Generate BERT embeddings
 
 scikit-learn - Compute cosine similarity
 
-Groq API (LLaMA-3) - Detailed AI evaluation of resume
+Groq API with openai/gpt-oss-120b - Detailed AI evaluation of resume
 
 dotenv	- Manage API key securely
 
@@ -68,10 +68,10 @@ Make sure you have Python and Git installed.
 ### 1️⃣ **Clone the Repository**
 
 ```bash
-git clone https://github.com/Altoks-AI/AI-Resume-Analyzer.git
+git clone https://github.com/Indhu-Vempatapu/TalentIQ.git
 ```
 ```
-cd FolderName
+cd TalentIQ
 ```
 
 ### 2️⃣ Set Up a Virtual Environment
@@ -108,6 +108,3 @@ http://localhost:8501
 ---
 ✅ Now you’re all set!
 Upload a resume, paste a job description, and let the AI analyze your resume for job-fit and provide suggestions. 
-
-## Output 
-![Demo](assets/video.gif)**
