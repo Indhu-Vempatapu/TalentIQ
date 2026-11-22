@@ -20,3 +20,5 @@ env/
 # System files
 .DS_Store
 Thumbs.db
+
+.streamlit/secrets.toml
