@@ -482,7 +482,3 @@ if st.session_state.form_submitted:
         mime="text/markdown",
         icon=":material/download:",
     )
-
-    # Output GIF Demo (Optional)
-    # st.markdown("<h5 style='color:#1a1a1a;'>🎥 Output Demo</h5>", unsafe_allow_html=True)
-    # st.image("assets/video.gif", use_column_width=True, caption="SmartHire Output Demo")
